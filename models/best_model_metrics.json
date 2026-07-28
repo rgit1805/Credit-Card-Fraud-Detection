@@ -1,0 +1,90 @@
+{
+    "model_name": "Random Forest",
+    "metrics": {
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1-Score": 1.0,
+        "ROC AUC": 1.0,
+        "PR AUC": 1.0,
+        "Confusion Matrix": [
+            [
+                19760,
+                0
+            ],
+            [
+                0,
+                240
+            ]
+        ]
+    },
+    "all_model_results": {
+        "Logistic Regression": {
+            "Precision": 0.995850622406639,
+            "Recall": 1.0,
+            "F1-Score": 0.997920997920998,
+            "ROC AUC": 1.0,
+            "PR AUC": 1.0,
+            "Confusion Matrix": [
+                [
+                    19759,
+                    1
+                ],
+                [
+                    0,
+                    240
+                ]
+            ]
+        },
+        "Random Forest": {
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1-Score": 1.0,
+            "ROC AUC": 1.0,
+            "PR AUC": 1.0,
+            "Confusion Matrix": [
+                [
+                    19760,
+                    0
+                ],
+                [
+                    0,
+                    240
+                ]
+            ]
+        },
+        "XGBoost": {
+            "Precision": 0.995850622406639,
+            "Recall": 1.0,
+            "F1-Score": 0.997920997920998,
+            "ROC AUC": 1.0,
+            "PR AUC": 0.9999999999999999,
+            "Confusion Matrix": [
+                [
+                    19759,
+                    1
+                ],
+                [
+                    0,
+                    240
+                ]
+            ]
+        },
+        "LightGBM": {
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1-Score": 1.0,
+            "ROC AUC": 0.9999999999999999,
+            "PR AUC": 1.0,
+            "Confusion Matrix": [
+                [
+                    19760,
+                    0
+                ],
+                [
+                    0,
+                    240
+                ]
+            ]
+        }
+    }
+}
