@@ -223,18 +223,22 @@ def draw_daily_trends(df: pd.DataFrame, is_dark: bool = True):
         margin=dict(l=10, r=10, t=10, b=10),
         legend=dict(orientation="h", yanchor="bottom", y=1.05, xanchor="center", x=0.5),
         yaxis=dict(
-            title="Total transactions",
-            titlefont=dict(color="#3498DB"),
-            tickfont=dict(color="#3498DB"),
-            gridcolor="rgba(128,128,128,0.15)"
-        ),
+            title=dict(
+        text="Total Transactions",
+        font=dict(color="#3498DB")
+    ),
+    tickfont=dict(color="#3498DB"),
+    gridcolor="rgba(128,128,128,0.15)"
+),
         yaxis2=dict(
-            title="Fraud detections",
-            titlefont=dict(color="#E74C3C"),
-            tickfont=dict(color="#E74C3C"),
-            overlaying="y",
-            side="right"
-        )
+    title=dict(
+        text="Fraud Detections",
+        font=dict(color="#E74C3C")
+    ),
+    tickfont=dict(color="#E74C3C"),
+    overlaying="y",
+    side="right"
+)
     )
     return fig
 
